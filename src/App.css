@@ -65,7 +65,7 @@
   text-align: center;
   margin-top: 30px;
   color: #286988;
-  font-size: 40px;
+  font-size: 28px;
   font-weight: 800;
   margin-bottom: 50px;  
 }
@@ -74,7 +74,7 @@
 
   text-align: center;
   font-family: 'Inter';
-  font-size: 34px;
+  font-size: 28px;
   margin: 30px;
 }
 
@@ -87,7 +87,7 @@ color: #FE931E;
 
   text-align: center;
   font-family: 'Inter';
-  font-size: 34px;
+  font-size: 28px;
   margin: 30px;
 }
 
@@ -371,7 +371,7 @@ footer {
 
 
 .nvbr{
-  font-size: 40px;
+  font-size: 28px;
     background-color: #FE931E;
     text-align: center;
     font-family: 'Inter';
@@ -457,7 +457,9 @@ flex-direction: column;
 }
 @media screen and (max-width: 700px) {
 
-
+  .icn {
+    width: 40px;
+  }
   .pos{
     text-align: center;
   }
