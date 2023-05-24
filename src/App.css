@@ -355,6 +355,9 @@ footer {
 .icn {
   width: 60px;
 }
+.r {
+  width: 50px;
+}
 .footer-icons a {
   display: inline-block;
   margin: 0 10px;
@@ -459,6 +462,9 @@ flex-direction: column;
 
   .icn {
     width: 40px;
+  }
+  .r{
+    width: 34px;
   }
   .pos{
     text-align: center;

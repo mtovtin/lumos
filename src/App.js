@@ -21,6 +21,7 @@ import LocalizedStrings from 'react-localization';
 import buttonFlagUA from './images/flagu.png'
 import buttonFlagUK from './images/flagb.webp'
 import buttonFlagSK from './images/flagsk.png'
+import telegram from './images/tele.png'
 
 let strings = new LocalizedStrings({
   en: {
@@ -190,11 +191,10 @@ function App(props) {
  <footer style={{marginTop:'80px'}}>
   <div class="footer-icons">
     <a href="https://instagram.com/lumos.slovakia?igshid=YmMyMTA2M2Y="><img className='icn' src = {inst}></img></a>
-    <a href="viber://chat?number=+380666137040"><img  className='icn' src = {viber}></img></a>
+    <a href="https://t.me/lumosoffice"><img  className='icn r' src = {telegram}></img></a>
     <a href="https://www.facebook.com/profile.php?id=100076594770668"><img  className='icn'src = {fb}></img></a>
     <a href="https://m.me/Lumos.Slovakia"><img  className='icn' src = {fbm}></img></a>
-  
-    <a href="https://wa.me/380666137040"><img  className='icn' src = {whatsapp}></img></a>
+    <a href="viber://chat?number=+380684816419"><img  className='icn' src = {viber}></img></a>
   </div>
 </footer>
    </div>
