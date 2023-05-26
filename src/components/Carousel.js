@@ -37,17 +37,27 @@ function CarouselContainer(props) {
         className="carousel-track"
         style={{ transform: `translate3d(${translateX}px, 0, 0)` }}
         {...rest}
+        
       />
+
     </NonPassiveTouchTarget>
   );
 }
 
 const Container = touchWithMouseHOC(CarouselContainer);
-
 class Carousel extends Component {
+  
+  constructor(props) {
+    super(props);
+
+    this.renderCard=this.renderCard.bind(this);
+}
+
   renderCard(index, modIndex) {
     const item = data[modIndex];
+    console.log(this.state)
     return (
+      <>
       <div
         key={index}
         className="carousel-card"
@@ -59,8 +69,15 @@ class Carousel extends Component {
         >
           <div className="carousel-title">{item.title}</div>
           <div className="carousel-text">{item.text}</div>
+          <button onClick = {this.props.change}> Записатись </button>
         </div>
+
+        
       </div>
+
+
+
+</>
     );
   }
 

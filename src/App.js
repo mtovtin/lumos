@@ -86,8 +86,11 @@ let strings = new LocalizedStrings({
 
 
 function App(props) {
+  const [showForm, setShowForm] = useState(true);
   const [language, setLanguage] = useState('en');
-
+  function handleState(){
+    setShowForm(!showForm);
+  }
   const pull_data = (data) => {
   setLanguage(data)
   }
@@ -140,7 +143,41 @@ function App(props) {
    </div> */}
    <div id='courses' className='heading'>{strings.courses}</div>
    <div>
- <Carousel/>
+ <Carousel change = {handleState}/>
+ {showForm && (
+
+ <form style={{  textAlign:'center', backgroundColor: '#286988'}}>
+ <div class="form-group">
+  <label for="formGroupExampleInput2">Full Name</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></input>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
+    <small id="emailHelp" class="">We'll never share your email with anyone else.</small>
+  </div>
+
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">Phone number</label>
+    <input type="tel" name="phone" class="form-control" id="phone"
+       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+       required></input>
+    <small id="emailHelp" class="">Format: 123-456-7890</small>
+  </div>
+
+
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Course</label>
+  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <option selected>B1</option>
+    <option value="1">A1</option>
+    <option value="2">A3</option>
+    <option value="3">A8</option>
+  </select>
+
+
+</form>
+ ) }
  </div>
  
 

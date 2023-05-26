@@ -78,6 +78,27 @@
   margin: 30px;
 }
 
+
+label {
+
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 20px;
+  margin: 15px;
+color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+input {
+  width: 20px;
+}
 .desc {
 margin-bottom: 20px;
 color: #FE931E;
@@ -371,7 +392,9 @@ footer {
   transform: scale(1.2);
 }
 
-
+small {
+  color: white;
+}
 
 .nvbr{
   font-size: 28px;
@@ -386,6 +409,15 @@ footer {
   width: 100%;
   overflow: auto;
   color: white !important;
+}
+
+label {
+
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 16px;
+  margin: 10px;
+color: white;
 }
 
 .k {
