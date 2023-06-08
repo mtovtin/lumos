@@ -22,6 +22,8 @@ import buttonFlagUA from './images/flagu.png'
 import buttonFlagUK from './images/flagb.webp'
 import buttonFlagSK from './images/flagsk.png'
 import telegram from './images/tele.png'
+import emailjs from '@emailjs/browser';
+import  { useRef } from 'react';
 
 let strings = new LocalizedStrings({
   en: {
@@ -86,8 +88,39 @@ let strings = new LocalizedStrings({
 
 
 function App(props) {
+
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      var templateParams = {
+        name: document.getElementById('formGroupExampleInput2').value,
+        phone: document.getElementById('phone').value,
+        course: document.getElementById('inlineFormCustomSelectPref').value,
+        email: document.getElementById('exampleInputEmail1').value
+    };
+
+      e.preventDefault(); // prevents the page from reloading when you hit “Send”
+   
+    //   emailjs.sendForm('service_7ta8gdh', 'template_c6vwkfa', '#myForm', 'MWZ0qrMEtfLEvcPiv')
+    // .then(function(response) {
+    //    console.log('SUCCESS!', response.status, response.text);
+    // }, function(error) {
+    //    console.log('FAILED...', error);
+    // });
+      emailjs.send('service_7ta8gdh', 'template_c6vwkfa', templateParams, 'MWZ0qrMEtfLEvcPiv')
+        .then((result) => {
+          alert("Success! We'll contact you soon.")
+            // show the user a success message
+        }, (error) => {
+            // show the user an error
+        });
+    };
+
   const [showForm, setShowForm] = useState(true);
   const [language, setLanguage] = useState('en');
+
+  
   function handleState(){
     setShowForm(!showForm);
   }
@@ -146,7 +179,7 @@ function App(props) {
  <Carousel change = {handleState}/>
  {showForm && (
 
- <form style={{  textAlign:'center', backgroundColor: '#286988'}}>
+ <form id='myForm' ref={form} onSubmit={sendEmail} style={{  textAlign:'center', backgroundColor: '#286988'}}>
  <div class="form-group">
   <label for="formGroupExampleInput2">Full Name</label>
     <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></input>
@@ -169,13 +202,13 @@ function App(props) {
 
   <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Course</label>
   <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-    <option selected>B1</option>
-    <option value="1">A1</option>
-    <option value="2">A3</option>
-    <option value="3">A8</option>
+    <option selected value="B1">B1</option>
+    <option value="A1">A1</option>
+    <option value="A2">A3</option>
+    <option value="B2">A8</option>
   </select>
 
-
+  <input type="submit" value="Send" />
 </form>
  ) }
  </div>
