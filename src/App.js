@@ -44,6 +44,11 @@ let strings = new LocalizedStrings({
       name4:"ANASTASIIA CHERNETSKA",
       position4:"position 4",
       text4:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
+      nm: 'Full name',
+      em: 'Email address',
+      emm: "We'll never share your email with anyone else.",
+      pn: "Phone",
+      cs: 'Course'
 
   },
   ua: {
@@ -64,6 +69,11 @@ let strings = new LocalizedStrings({
     name4:"АНАСТАСІЯ ЧЕРНЕЦЬКА",
     position4:"позиція 4",
     text4:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
+      nm: 'Імя та прізвище',
+      em: 'Емейл',
+      emm: "Ми ніколи не поширимо Ваш емейл",
+      pn: "Номер телефону",
+      cs: 'Курс'
   },
   sk: {
     blog: "BLOG",
@@ -83,6 +93,11 @@ let strings = new LocalizedStrings({
     name4:"ANASTASIA ČERNETSKÁ",
     position4:"pozícia 4",
     text4:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
+    nm: 'Celé meno',
+    em: 'E-mailová adresa',
+    emm: "Váš e-mail nikdy nezdieľame s nikým iným.",
+    pn: "Telefón",
+    cs: 'Kurz'
   }
 });
 
@@ -181,34 +196,34 @@ function App(props) {
 
  <form id='myForm' ref={form} onSubmit={sendEmail} style={{  textAlign:'center', backgroundColor: '#286988'}}>
  <div class="form-group">
-  <label for="formGroupExampleInput2">Full Name</label>
-    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input"></input>
+  <label for="formGroupExampleInput2">{strings.nm}</label>
+    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder=""></input>
   </div>
   <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
-    <small id="emailHelp" class="">We'll never share your email with anyone else.</small>
+    <label for="exampleInputEmail1">{strings.em}</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" required></input>
+    <small id="emailHelp" class="">{strings.emm}</small>
   </div>
 
 
   <div class="form-group">
-    <label for="exampleInputEmail1">Phone number</label>
-    <input type="tel" name="phone" class="form-control" id="phone"
-       pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+    <label for="exampleInputEmail1">{strings.pn}</label>
+    <input style={{marginBottom:'20px'}} type="tel" name="phone" class="form-control" id="phone"
+     
        required></input>
-    <small id="emailHelp" class="">Format: 123-456-7890</small>
+
   </div>
 
 
-  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Course</label>
-  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">{strings.cs}</label>
+  <select style={{marginTop: '40px', width: '80px'}} class="form-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
     <option selected value="B1">B1</option>
     <option value="A1">A1</option>
     <option value="A2">A3</option>
     <option value="B2">A8</option>
   </select>
 
-  <input type="submit" value="Send" />
+  <input class="btn-primary" style={{width: '100px', borderRadius: '5px', marginTop:'20px',backgroundColor:'#FE931E',border: '0px', height:'40px', color:'white', marginBottom:'20px'}}  type="submit" value="OK" />
 </form>
  ) }
  </div>
