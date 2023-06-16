@@ -1,9 +1,13 @@
 {
   "files": {
     "main.css": "/lumos/static/css/main.74002a1d.css",
-    "main.js": "/lumos/static/js/main.b8ea04b6.js",
+    "main.js": "/lumos/static/js/main.ef592bd1.js",
     "static/js/787.52870bbd.chunk.js": "/lumos/static/js/787.52870bbd.chunk.js",
+    "static/media/dima.png": "/lumos/static/media/dima.ab593e4555738848fe22.png",
     "static/media/background.png": "/lumos/static/media/background.8ad4b919a47af5e736c2.png",
+    "static/media/xtina.png": "/lumos/static/media/xtina.f5d69d5826acc50c0bb7.png",
+    "static/media/klara.png": "/lumos/static/media/klara.e884dd8c371ee6d53e91.png",
+    "static/media/kate.png": "/lumos/static/media/kate.7fd3c62693c9430ad75b.png",
     "static/media/fotor1.png": "/lumos/static/media/fotor1.0d4a1c78aed1bd203ddb.png",
     "static/media/inter-all-400-normal.woff": "/lumos/static/media/inter-all-400-normal.8c804432e8c67741aac0.woff",
     "static/media/flagsk.png": "/lumos/static/media/flagsk.813854404612df7819e7.png",
@@ -20,11 +24,11 @@
     "static/media/logo.svg": "/lumos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lumos/index.html",
     "main.74002a1d.css.map": "/lumos/static/css/main.74002a1d.css.map",
-    "main.b8ea04b6.js.map": "/lumos/static/js/main.b8ea04b6.js.map",
+    "main.ef592bd1.js.map": "/lumos/static/js/main.ef592bd1.js.map",
     "787.52870bbd.chunk.js.map": "/lumos/static/js/787.52870bbd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74002a1d.css",
-    "static/js/main.b8ea04b6.js"
+    "static/js/main.ef592bd1.js"
   ]
 }
