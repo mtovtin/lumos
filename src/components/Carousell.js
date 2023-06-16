@@ -8,6 +8,7 @@ import touchWithMouseHOC from "react-touch-carousel/lib/touchWithMouseHOC";
 
 
 
+
 import "../App.css";
 
 
@@ -59,8 +60,10 @@ class Carousell extends Component {
           className="carousel-card-inner"
           style={{ backgroundColor: item.background }}
         >
-          <div className="carousel-title">{item.title}</div>
-          <div className="carousel-text">{item.text}</div>
+
+<div style={{marginTop:'20px', marginBottom:'5px'}}  className=""><img style={{width: '80px'}} className='nst' src={item.img}></img></div>
+          <div style={{marginBottom:'-10px'}} className="">{item.title}</div>
+          <div style={{marginBottom:'20px !important', textAlign:'justify'}} className="carousel-text">{item.text}</div>
         </div>
       </div>
     );

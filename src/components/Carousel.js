@@ -65,11 +65,14 @@ class Carousel extends Component {
       >
         <div
           className="carousel-card-inner"
-          style={{ backgroundColor: item.background }}
+          style={{ backgroundColor: item.background, display:'flex', justifyContent:'space-between' }}
         >
+
+
+
           <div className="carousel-title">{item.title}</div>
-          <div className="carousel-text">{item.text}</div>
-          <button onClick = {this.props.change}> Записатись </button>
+          <div style={{marginBottom:'20px !important', textAlign:'justify', position:'static'}} className="carousel-text">{item.text}</div>
+        <div style={{marginBottom:'20px'}}> <button style={{borderRadius: '5px', marginTop:'20px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{item.appl}</button></div> 
         </div>
 
         
