@@ -1,10 +1,14 @@
 {
   "files": {
-    "main.css": "/lumos/static/css/main.74002a1d.css",
-    "main.js": "/lumos/static/js/main.ef592bd1.js",
+    "main.css": "/lumos/static/css/main.643e63a1.css",
+    "main.js": "/lumos/static/js/main.fe195baa.js",
     "static/js/787.52870bbd.chunk.js": "/lumos/static/js/787.52870bbd.chunk.js",
     "static/media/dima.png": "/lumos/static/media/dima.ab593e4555738848fe22.png",
+    "static/media/r2.png": "/lumos/static/media/r2.58e91843aaccc6ce8272.png",
+    "static/media/r3.png": "/lumos/static/media/r3.2e5488d843d2b315a3c8.png",
+    "static/media/r1.png": "/lumos/static/media/r1.9660976c26f325ba3f26.png",
     "static/media/background.png": "/lumos/static/media/background.8ad4b919a47af5e736c2.png",
+    "static/media/ol.png": "/lumos/static/media/ol.422813cd50345beaa60e.png",
     "static/media/xtina.png": "/lumos/static/media/xtina.f5d69d5826acc50c0bb7.png",
     "static/media/klara.png": "/lumos/static/media/klara.e884dd8c371ee6d53e91.png",
     "static/media/kate.png": "/lumos/static/media/kate.7fd3c62693c9430ad75b.png",
@@ -23,12 +27,12 @@
     "static/media/flagb.webp": "/lumos/static/media/flagb.a50c6419b665c409393a.webp",
     "static/media/logo.svg": "/lumos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lumos/index.html",
-    "main.74002a1d.css.map": "/lumos/static/css/main.74002a1d.css.map",
-    "main.ef592bd1.js.map": "/lumos/static/js/main.ef592bd1.js.map",
+    "main.643e63a1.css.map": "/lumos/static/css/main.643e63a1.css.map",
+    "main.fe195baa.js.map": "/lumos/static/js/main.fe195baa.js.map",
     "787.52870bbd.chunk.js.map": "/lumos/static/js/787.52870bbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.74002a1d.css",
-    "static/js/main.ef592bd1.js"
+    "static/css/main.643e63a1.css",
+    "static/js/main.fe195baa.js"
   ]
 }
