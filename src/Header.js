@@ -39,9 +39,15 @@ function Header(props) {
 
     if(props.language==='en'){
         strings.setLanguage('en')
-    }	else {
-        strings.setLanguage('ua')
-    }
+    }	
+	else if (props.language==='ua'){
+    strings.setLanguage('ua');
+  }
+  else {
+    strings.setLanguage('sk');
+  }
+
+
   return (
 
     <Navbar className='nvbr' expand="lg">
