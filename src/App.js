@@ -30,6 +30,10 @@ import r1 from './images/r1.png';
 import r2 from './images/r2.png';
 import r3 from './images/r3.png';
 
+import domi from './images/domi.png';
+import adri from './images/adri.png';
+import chris from './images/chris.png';
+
 let strings = new LocalizedStrings({
   en: {
     spiv:'Співзасновниці',
@@ -66,15 +70,37 @@ let strings = new LocalizedStrings({
      t293:'Тому, не бійтесь, довіртесь нам і словацька стане тою вершиною, яка підкориться вам легко та з задоволенням😉',
       feedback:"REVIEWS",
       teachers:"TEAM",
-      name2:"ANASTASIIA CHERNETSKA",
-      position2:"position 2",
-      text2:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
-      name3:"ANASTASIIA CHERNETSKA",
-      position3:"position 3",
-      text3:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
-      name4:"ANASTASIIA CHERNETSKA",
-      position4:"position 4",
-      text4:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
+      name2:"Христина",
+      position2:"вчителька",
+      text2:"магістр за спеціальністю викладання англійської та італійської мови та літератури. Христина викладає англійську, італійську та словацьку вже декілька років. В LUMOS вчить як діток, так і дорослих. Далі пряма мова від Христини😉",
+    t31:'🗣Розкажи щось про себе та перші враження від Словаччини.',
+    t32:'- Мене звати Христина, це вже мій п’ятий рік, як я навчаюся, працюю та проживаю в Словаччині. Варто додати, що життя в іншій країні, далеко від дому, ніколи не буде легким, проте воно точно буде дуже цікавим, і багатим на різні події, емоції, а в подальшому і спогади.',
+    t33:'🗣Поділишся секретами щодо вивчення мови?',
+    t34:'- Мені здається, що не існує єдиного методу навчання, який підходитиме для всіх, адже кожен з нас - індивідуальний, до того ж, сприймаємо ми інформацію також по-різному. Проте, зі свого досвіду можу сказати, що найкраще вивчити мову можна в середовищі, де кожен нею спілкується. Так, теорія важлива, але практика є незамінною складовою.',
+    t35:'Отож, до зустрічі в Словаччині або ж на нашому курсі😉',
+      name3:"Adriána",
+      position3:"вчителька",
+      text3:"носійка мови, яка закохана у словацьку та словацьку літературу. Студентка спеціальності викладання словацької мови та літератури в комбінації з педагогікою. В LUMOS проводить розмовні клуби, а також заняття для вищих мовних рівнів.",
+     t41:'Далі пряма мова від Адріани:',
+     t42:'🗣 Kto si?',
+     t43:'- Som oddaná milovníčka slovenskej literatúry. Slovenčina si ma získala svojou jedinečnosťou a krásou.',
+     t44:'Považujem za veľmi dôležité vedieť svoj rodný jazyk na vysokej úrovni. Pretože kvalita ovládania slova zanecháva dojem, podľa ktorého hodnotíme človeka.',
+     t45:'🗣 Čo študuješ?',
+     t46:'- Aby som sa stala dobrou učiteľkou ku slovenskému jazyku som si vybrala odbor pedagogika.',
+     t47:'🗣 Čo robíš v LUMOS? Aké metódy využívaš?',
+     t48:'- V LUMOSe učím žiakov pokročilých v slovenskom jazyku. V praxi sa stotožňujem s Komenského výrokom „Škola hrou.“ - Učiť sa jazyk s ľahkosťou a zodpovedne.',
+     t49:'Je dôležité neurobiť si z jazyka nepriateľa ale „dobrého sluhu“, ktorý nám ponúkne široké spektrum možností a otvorí mnoho dverí.',
+     t491:'Verím, že sa slovenčina pre našich žiakov stane kamarátkou, ktorá podrží a pomôže. Miestami možno aj potrápi ale rovnako ako hrdza skúša zlato, verím, že výsledok bude stáť za to!',
+      name4:"Домініка",
+      position4:"вчителька",
+      text4:"студентка спеціальності викладання англійської мови. Має досвід у викладанні словацької іноземцям. В LUMOS займається з дітками, дорослими та проводить групові курси.",
+      t51:'🗣️Привіт! Розкажи щось про себе та своє життя в Словаччині.',
+      t52:'– Всім привіт, я - Домініка, родом з мальовничого міста Мукачева, Закарпатської області. 4 роки я провела в Словаччині, в місті Ружомберок, студенткою Католицького університету. Вивченням словацької я почала займатися ще в далекому 2018 році і вже відтоді мова, яку я інтенсивно вивчала для того, щоб без проблем розуміти жителів цієї країни, стала моїм захопленням.',
+      t53:'🗣️В тебе чималий досвід у вивченні словацької. Як вважаєш, який метод навчання є найкращим?',
+      t54:'— Для мене це завжди практика, спілкування з носіями мови, однак, теорія є не менш важливою частиною. На початку вивчення мови мені допомогли перегляди фільмів словацькою та регулярні граматичні вправи.',
+      t55:'🗣️: Чому зараз обирати варто саме Словаччину?',
+      t56:'– Найбільшою перевагою вчитися в Словаччині є безкоштовна освіта. Навчання базується на ефективних педагогічних методах.',
+      t57:'А також - не менш важливим аспектом є те, що ви можете легко подорожувати до інших країн, так як Словаччина має вигідне географічне розташування.',
       nm: 'Full name',
       em: 'Email address',
       emm: "We'll never share your email with anyone else.",
@@ -118,16 +144,39 @@ let strings = new LocalizedStrings({
 
     feedback:"ВІДГУКИ",
     teachers:"КОМАНДА",
-    name2:"АНАСТАСІЯ ЧЕРНЕЦЬКА",
-    position2:"позиція 2",
-    text2:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
-    name3:"АНАСТАСІЯ ЧЕРНЕЦЬКА",
-    position3:"позиція 3",
-    text3:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
-    name4:"АНАСТАСІЯ ЧЕРНЕЦЬКА",
-    position4:"позиція 4",
-    text4:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
-      nm: 'Імя та прізвище',
+    name2:"Христина",
+    position2:"вчителька",
+    text2:"магістр за спеціальністю викладання англійської та італійської мови та літератури. Христина викладає англійську, італійську та словацьку вже декілька років. В LUMOS вчить як діток, так і дорослих. Далі пряма мова від Христини😉",
+  t31:'🗣Розкажи щось про себе та перші враження від Словаччини.',
+  t32:'- Мене звати Христина, це вже мій п’ятий рік, як я навчаюся, працюю та проживаю в Словаччині. Варто додати, що життя в іншій країні, далеко від дому, ніколи не буде легким, проте воно точно буде дуже цікавим, і багатим на різні події, емоції, а в подальшому і спогади.',
+  t33:'🗣Поділишся секретами щодо вивчення мови?',
+  t34:'- Мені здається, що не існує єдиного методу навчання, який підходитиме для всіх, адже кожен з нас - індивідуальний, до того ж, сприймаємо ми інформацію також по-різному. Проте, зі свого досвіду можу сказати, що найкраще вивчити мову можна в середовищі, де кожен нею спілкується. Так, теорія важлива, але практика є незамінною складовою.',
+  t35:'Отож, до зустрічі в Словаччині або ж на нашому курсі😉',
+    name3:"Adriána",
+    position3:"вчителька",
+    text3:"носійка мови, яка закохана у словацьку та словацьку літературу. Студентка спеціальності викладання словацької мови та літератури в комбінації з педагогікою. В LUMOS проводить розмовні клуби, а також заняття для вищих мовних рівнів.",
+   t41:'Далі пряма мова від Адріани:',
+   t42:'🗣 Kto si?',
+   t43:'- Som oddaná milovníčka slovenskej literatúry. Slovenčina si ma získala svojou jedinečnosťou a krásou.',
+   t44:'Považujem za veľmi dôležité vedieť svoj rodný jazyk na vysokej úrovni. Pretože kvalita ovládania slova zanecháva dojem, podľa ktorého hodnotíme človeka.',
+   t45:'🗣 Čo študuješ?',
+   t46:'- Aby som sa stala dobrou učiteľkou ku slovenskému jazyku som si vybrala odbor pedagogika.',
+   t47:'🗣 Čo robíš v LUMOS? Aké metódy využívaš?',
+   t48:'- V LUMOSe učím žiakov pokročilých v slovenskom jazyku. V praxi sa stotožňujem s Komenského výrokom „Škola hrou.“ - Učiť sa jazyk s ľahkosťou a zodpovedne.',
+   t49:'Je dôležité neurobiť si z jazyka nepriateľa ale „dobrého sluhu“, ktorý nám ponúkne široké spektrum možností a otvorí mnoho dverí.',
+   t491:'Verím, že sa slovenčina pre našich žiakov stane kamarátkou, ktorá podrží a pomôže. Miestami možno aj potrápi ale rovnako ako hrdza skúša zlato, verím, že výsledok bude stáť za to!',
+    name4:"Домініка",
+    position4:"вчителька",
+    text4:"студентка спеціальності викладання англійської мови. Має досвід у викладанні словацької іноземцям. В LUMOS займається з дітками, дорослими та проводить групові курси.",
+    t51:'🗣️Привіт! Розкажи щось про себе та своє життя в Словаччині.',
+    t52:'– Всім привіт, я - Домініка, родом з мальовничого міста Мукачева, Закарпатської області. 4 роки я провела в Словаччині, в місті Ружомберок, студенткою Католицького університету. Вивченням словацької я почала займатися ще в далекому 2018 році і вже відтоді мова, яку я інтенсивно вивчала для того, щоб без проблем розуміти жителів цієї країни, стала моїм захопленням.',
+    t53:'🗣️В тебе чималий досвід у вивченні словацької. Як вважаєш, який метод навчання є найкращим?',
+    t54:'— Для мене це завжди практика, спілкування з носіями мови, однак, теорія є не менш важливою частиною. На початку вивчення мови мені допомогли перегляди фільмів словацькою та регулярні граматичні вправи.',
+    t55:'🗣️: Чому зараз обирати варто саме Словаччину?',
+    t56:'– Найбільшою перевагою вчитися в Словаччині є безкоштовна освіта. Навчання базується на ефективних педагогічних методах.',
+    t57:'А також - не менш важливим аспектом є те, що ви можете легко подорожувати до інших країн, так як Словаччина має вигідне географічне розташування.',
+
+        nm: 'Імя та прізвище',
       em: 'Емейл',
       emm: "Ми ніколи не поширимо Ваш емейл",
       pn: "Номер телефону",
@@ -168,15 +217,38 @@ let strings = new LocalizedStrings({
    t293:'Тому, не бійтесь, довіртесь нам і словацька стане тою вершиною, яка підкориться вам легко та з задоволенням😉',
     feedback:"SPÄTNÁ VÄZBA",
     teachers:"TÍM",
-    name2:"ANASTASIA ČERNETSKÁ",
-    position2:"pozícia 2",
-    text2:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
-    name3:"ANASTASIA ČERNETSKÁ",
-    position3:"pozícia 3",
-    text3:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
-    name4:"ANASTASIA ČERNETSKÁ",
-    position4:"pozícia 4",
-    text4:"Lorem Ipsum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting psum is simply dummy text of the printing and typesetting",
+    name2:"Христина",
+    position2:"вчителька",
+    text2:"магістр за спеціальністю викладання англійської та італійської мови та літератури. Христина викладає англійську, італійську та словацьку вже декілька років. В LUMOS вчить як діток, так і дорослих. Далі пряма мова від Христини😉",
+  t31:'🗣Розкажи щось про себе та перші враження від Словаччини.',
+  t32:'- Мене звати Христина, це вже мій п’ятий рік, як я навчаюся, працюю та проживаю в Словаччині. Варто додати, що життя в іншій країні, далеко від дому, ніколи не буде легким, проте воно точно буде дуже цікавим, і багатим на різні події, емоції, а в подальшому і спогади.',
+  t33:'🗣Поділишся секретами щодо вивчення мови?',
+  t34:'- Мені здається, що не існує єдиного методу навчання, який підходитиме для всіх, адже кожен з нас - індивідуальний, до того ж, сприймаємо ми інформацію також по-різному. Проте, зі свого досвіду можу сказати, що найкраще вивчити мову можна в середовищі, де кожен нею спілкується. Так, теорія важлива, але практика є незамінною складовою.',
+  t35:'Отож, до зустрічі в Словаччині або ж на нашому курсі😉',
+    name3:"Adriána",
+    position3:"вчителька",
+    text3:"носійка мови, яка закохана у словацьку та словацьку літературу. Студентка спеціальності викладання словацької мови та літератури в комбінації з педагогікою. В LUMOS проводить розмовні клуби, а також заняття для вищих мовних рівнів.",
+   t41:'Далі пряма мова від Адріани:',
+   t42:'🗣 Kto si?',
+   t43:'- Som oddaná milovníčka slovenskej literatúry. Slovenčina si ma získala svojou jedinečnosťou a krásou.',
+   t44:'Považujem za veľmi dôležité vedieť svoj rodný jazyk na vysokej úrovni. Pretože kvalita ovládania slova zanecháva dojem, podľa ktorého hodnotíme človeka.',
+   t45:'🗣 Čo študuješ?',
+   t46:'- Aby som sa stala dobrou učiteľkou ku slovenskému jazyku som si vybrala odbor pedagogika.',
+   t47:'🗣 Čo robíš v LUMOS? Aké metódy využívaš?',
+   t48:'- V LUMOSe učím žiakov pokročilých v slovenskom jazyku. V praxi sa stotožňujem s Komenského výrokom „Škola hrou.“ - Učiť sa jazyk s ľahkosťou a zodpovedne.',
+   t49:'Je dôležité neurobiť si z jazyka nepriateľa ale „dobrého sluhu“, ktorý nám ponúkne široké spektrum možností a otvorí mnoho dverí.',
+   t491:'Verím, že sa slovenčina pre našich žiakov stane kamarátkou, ktorá podrží a pomôže. Miestami možno aj potrápi ale rovnako ako hrdza skúša zlato, verím, že výsledok bude stáť za to!',
+    name4:"Домініка",
+    position4:"вчителька",
+    text4:"студентка спеціальності викладання англійської мови. Має досвід у викладанні словацької іноземцям. В LUMOS займається з дітками, дорослими та проводить групові курси.",
+    t51:'🗣️Привіт! Розкажи щось про себе та своє життя в Словаччині.',
+    t52:'– Всім привіт, я - Домініка, родом з мальовничого міста Мукачева, Закарпатської області. 4 роки я провела в Словаччині, в місті Ружомберок, студенткою Католицького університету. Вивченням словацької я почала займатися ще в далекому 2018 році і вже відтоді мова, яку я інтенсивно вивчала для того, щоб без проблем розуміти жителів цієї країни, стала моїм захопленням.',
+    t53:'🗣️В тебе чималий досвід у вивченні словацької. Як вважаєш, який метод навчання є найкращим?',
+    t54:'— Для мене це завжди практика, спілкування з носіями мови, однак, теорія є не менш важливою частиною. На початку вивчення мови мені допомогли перегляди фільмів словацькою та регулярні граматичні вправи.',
+    t55:'🗣️: Чому зараз обирати варто саме Словаччину?',
+    t56:'– Найбільшою перевагою вчитися в Словаччині є безкоштовна освіта. Навчання базується на ефективних педагогічних методах.',
+    t57:'А також - не менш важливим аспектом є те, що ви можете легко подорожувати до інших країн, так як Словаччина має вигідне географічне розташування.',
+
     nm: 'Celé meno',
     em: 'E-mailová adresa',
     emm: "Váš e-mail nikdy nezdieľame s nikým iným.",
@@ -260,7 +332,7 @@ let kra;
 </div>
 
 <div id='about' className='heading'>{strings.about}</div>
-<div style={{textAlign:'center', margin: '20px'}}>
+<div style={{textAlign:'center', margin: '40px'}}>
    <img className='tw' src={r1}></img>
    </div>
    <div style={{textAlign:'center', margin: '40px'}}>
@@ -278,27 +350,27 @@ let kra;
 <div>{strings.name1}</div>
 <div className='pos'>{strings.position1}</div>
 </div>
-<div className='e'>
+<div className='e' style={{marginBottom:'20px'}}>
 {strings.text1}
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t11}
 </div>
 
-<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
 {strings.t12}
 </div>
 
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t13}
 </div>
-<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
 {strings.t14}
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t15}
 </div>
-<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
 {strings.t16}
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
@@ -319,14 +391,14 @@ let kra;
 <div>{strings.ol}</div>
 <div className='pos'>{strings.olpos}</div>
 </div>
-<div className='e'>
+<div className='e' style={{marginBottom:'20px'}}>
 {strings.ola}
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t21}
 </div>
 
-<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
 {strings.t22}
 </div>
 
@@ -336,7 +408,7 @@ let kra;
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t24}
 </div>
-<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
 {strings.t25}
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
@@ -345,13 +417,13 @@ let kra;
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t27}
 </div>
-<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
 {strings.t28}
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t29}
 </div>
-<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
 {strings.t291}
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
@@ -411,41 +483,109 @@ let kra;
  
 
  <div id='team' className='heading'>{strings.teachers}</div>
- <div  className='about1'>
-<div className='desc1'>
-<div  className='leftt ra'><img src={nastia}></img></div>
-<div>
+ <div style={{textAlign: 'center' }}><img className='ol' src={chris}></img></div>
+<div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
+<div className='desc'>
 <div>{strings.name2}</div>
-<div className='pos'>{strings.position2}</div>
-<div className='abt'>
+<div className='pos' >{strings.position2}</div>
+</div>
+<div className='e' style={{marginBottom:'20px'}}>
 {strings.text2}
 </div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t31}
+</div>
+
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t32}
+</div>
+
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t33}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t34}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', marginBottom:'40px'}}>
+{strings.t35}
 </div>
 </div>
 
-<div   className='desc1' id='rev'>
-
-<div>
+<div style={{textAlign: 'center' }}><img className='ol' src={adri}></img></div>
+<div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
+<div className='desc'>
 <div>{strings.name3}</div>
 <div className='pos'>{strings.position3}</div>
-<div className='abt'>
+</div>
+<div className='e' style={{marginBottom:'20px'}}>
 {strings.text3}
 </div>
-
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t41}
 </div>
-<div className='leftt ma'><img src={nastia}></img></div>
+
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t42}
 </div>
 
-<div  className='desc1'>
-<div className='leftt ra'><img src={nastia}></img></div>
-<div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t43}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t44}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t45}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t46}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t47}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t48}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t49}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', marginBottom:'40px'}}>
+{strings.t491}
+</div>
+</div>
+ <div style={{textAlign: 'center' }}><img className='ol' src={domi}></img></div>
+<div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
+<div className='desc'>
 <div>{strings.name4}</div>
 <div className='pos'>{strings.position4}</div>
-<div className='abt'>
+</div>
+<div className='e' style={{marginBottom:'20px'}}>
 {strings.text4}
 </div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t51}
 </div>
+
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t52}
 </div>
+
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t53}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t54}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t55}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t56}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', marginBottom:'0px'}}>
+{strings.t57}
+</div>
+
 </div>
 
 

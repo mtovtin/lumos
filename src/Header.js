@@ -19,7 +19,7 @@ let strings = new LocalizedStrings({
     },
     ua: {
       blog: "ГОЛОВНА",
-      about: "МИ", 
+      about: "ПРО НАС", 
       courses:"КУРСИ",
       feedback:"ВІДГУКИ",
       team:"КОМАНДА"
