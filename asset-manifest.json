@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/lumos/static/css/main.643e63a1.css",
-    "main.js": "/lumos/static/js/main.fe195baa.js",
+    "main.css": "/lumos/static/css/main.3e72a4c9.css",
+    "main.js": "/lumos/static/js/main.7faef2da.js",
     "static/js/787.52870bbd.chunk.js": "/lumos/static/js/787.52870bbd.chunk.js",
     "static/media/dima.png": "/lumos/static/media/dima.ab593e4555738848fe22.png",
     "static/media/r2.png": "/lumos/static/media/r2.58e91843aaccc6ce8272.png",
     "static/media/r3.png": "/lumos/static/media/r3.2e5488d843d2b315a3c8.png",
     "static/media/r1.png": "/lumos/static/media/r1.9660976c26f325ba3f26.png",
+    "static/media/domi.png": "/lumos/static/media/domi.fa1d57f73ae2d30c1b90.png",
     "static/media/background.png": "/lumos/static/media/background.8ad4b919a47af5e736c2.png",
     "static/media/ol.png": "/lumos/static/media/ol.422813cd50345beaa60e.png",
     "static/media/xtina.png": "/lumos/static/media/xtina.f5d69d5826acc50c0bb7.png",
+    "static/media/adri.png": "/lumos/static/media/adri.3d456c5cd163b67e1f9a.png",
     "static/media/klara.png": "/lumos/static/media/klara.e884dd8c371ee6d53e91.png",
     "static/media/kate.png": "/lumos/static/media/kate.7fd3c62693c9430ad75b.png",
     "static/media/fotor1.png": "/lumos/static/media/fotor1.0d4a1c78aed1bd203ddb.png",
     "static/media/inter-all-400-normal.woff": "/lumos/static/media/inter-all-400-normal.8c804432e8c67741aac0.woff",
+    "static/media/chris.png": "/lumos/static/media/chris.c0b83413a08b2688f9e4.png",
     "static/media/flagsk.png": "/lumos/static/media/flagsk.813854404612df7819e7.png",
     "static/media/logo.png": "/lumos/static/media/logo.214bf3026e72beb7eed9.png",
     "static/media/tele.png": "/lumos/static/media/tele.f66dc427e0b7a3025e71.png",
@@ -27,12 +30,12 @@
     "static/media/flagb.webp": "/lumos/static/media/flagb.a50c6419b665c409393a.webp",
     "static/media/logo.svg": "/lumos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lumos/index.html",
-    "main.643e63a1.css.map": "/lumos/static/css/main.643e63a1.css.map",
-    "main.fe195baa.js.map": "/lumos/static/js/main.fe195baa.js.map",
+    "main.3e72a4c9.css.map": "/lumos/static/css/main.3e72a4c9.css.map",
+    "main.7faef2da.js.map": "/lumos/static/js/main.7faef2da.js.map",
     "787.52870bbd.chunk.js.map": "/lumos/static/js/787.52870bbd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.643e63a1.css",
-    "static/js/main.fe195baa.js"
+    "static/css/main.3e72a4c9.css",
+    "static/js/main.7faef2da.js"
   ]
 }
