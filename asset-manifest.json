@@ -1,12 +1,9 @@
 {
   "files": {
     "main.css": "/lumos/static/css/main.3e72a4c9.css",
-    "main.js": "/lumos/static/js/main.0cb2f13b.js",
+    "main.js": "/lumos/static/js/main.7d97f139.js",
     "static/js/787.52870bbd.chunk.js": "/lumos/static/js/787.52870bbd.chunk.js",
     "static/media/dima.png": "/lumos/static/media/dima.ab593e4555738848fe22.png",
-    "static/media/r2.png": "/lumos/static/media/r2.58e91843aaccc6ce8272.png",
-    "static/media/r3.png": "/lumos/static/media/r3.2e5488d843d2b315a3c8.png",
-    "static/media/r1.png": "/lumos/static/media/r1.9660976c26f325ba3f26.png",
     "static/media/domi.png": "/lumos/static/media/domi.fa1d57f73ae2d30c1b90.png",
     "static/media/background.png": "/lumos/static/media/background.8ad4b919a47af5e736c2.png",
     "static/media/ol.png": "/lumos/static/media/ol.422813cd50345beaa60e.png",
@@ -14,7 +11,10 @@
     "static/media/adri.png": "/lumos/static/media/adri.3d456c5cd163b67e1f9a.png",
     "static/media/klara.png": "/lumos/static/media/klara.e884dd8c371ee6d53e91.png",
     "static/media/kate.png": "/lumos/static/media/kate.7fd3c62693c9430ad75b.png",
+    "static/media/r2.webp": "/lumos/static/media/r2.25d55723ce4a2c2ada4f.webp",
     "static/media/fotor1.png": "/lumos/static/media/fotor1.0d4a1c78aed1bd203ddb.png",
+    "static/media/r3.webp": "/lumos/static/media/r3.77394b10fcf4c0fcba58.webp",
+    "static/media/r1.webp": "/lumos/static/media/r1.9e96b877fdf349178865.webp",
     "static/media/inter-all-400-normal.woff": "/lumos/static/media/inter-all-400-normal.8c804432e8c67741aac0.woff",
     "static/media/chris.png": "/lumos/static/media/chris.c0b83413a08b2688f9e4.png",
     "static/media/flagsk.png": "/lumos/static/media/flagsk.813854404612df7819e7.png",
@@ -31,11 +31,11 @@
     "static/media/logo.svg": "/lumos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/lumos/index.html",
     "main.3e72a4c9.css.map": "/lumos/static/css/main.3e72a4c9.css.map",
-    "main.0cb2f13b.js.map": "/lumos/static/js/main.0cb2f13b.js.map",
+    "main.7d97f139.js.map": "/lumos/static/js/main.7d97f139.js.map",
     "787.52870bbd.chunk.js.map": "/lumos/static/js/787.52870bbd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e72a4c9.css",
-    "static/js/main.0cb2f13b.js"
+    "static/js/main.7d97f139.js"
   ]
 }
