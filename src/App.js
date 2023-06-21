@@ -288,7 +288,7 @@ let kra;
         });
     };
 
-  const [showForm, setShowForm] = useState(true);
+  const [showForm, setShowForm] = useState(false);
   const [language, setLanguage] = useState('en');
 
   
