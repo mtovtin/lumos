@@ -600,7 +600,8 @@ let kra;
     <a href="https://t.me/lumosoffice"><img  className='icn r' src = {telegram}></img></a>
     <a href="https://www.facebook.com/profile.php?id=100076594770668"><img  className='icn'src = {fb}></img></a>
     <a href="https://m.me/Lumos.Slovakia"><img  className='icn' src = {fbm}></img></a>
-    <a href="viber://chat?number=+380684816419"><img  className='icn' src = {viber}></img></a>
+    <a href="https://msng.link/o?380666137040=vi"><img  className='icn' src = {viber}></img></a>
+    {/* <a href="viber://chat?number=+380684816419"><img  className='icn' src = {viber}></img></a> */}
   </div>
 </footer>
    </div>
