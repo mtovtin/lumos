@@ -26,9 +26,9 @@ import emailjs from '@emailjs/browser';
 import  { useRef } from 'react';
 import Data from './components/data1';
 import ol from './images/ol.png';
-import r1 from './images/r1.png';
-import r2 from './images/r2.png';
-import r3 from './images/r3.png';
+import r1 from './images/r1.webp';
+import r2 from './images/r2.webp';
+import r3 from './images/r3.webp';
 
 import domi from './images/domi.png';
 import adri from './images/adri.png';
@@ -320,7 +320,7 @@ let kra;
    <Header language={language}/>
 
    <div style={{display: 'flex', justifyContent:'flex-end', alignItems:'flex-end', marginRight:'20px'}}>
-   <button  id='flagButton' style={{backgroundImage:'url(' + buttonImage + ')'}} onClick={()=>{if(language==='en') {setLanguage('ua');} else if(language==='ua') setLanguage('sk'); else setLanguage('en'); kra=language}}></button>
+   <button  id='flagButton' style={{zIndex:'1000000', position:'fixed', top:'18px', backgroundImage:'url(' + buttonImage + ')'}} onClick={()=>{if(language==='en') {setLanguage('ua');} else if(language==='ua') setLanguage('sk'); else setLanguage('en'); kra=language}}></button>
    </div>
    <div style={{position: 'relative', width:'100%',  top: '-20px', zIndex:'-2'}}><img className='bkg' src={bkg}></img>
    <img className='ctr' src={logo1}></img>
@@ -600,7 +600,7 @@ let kra;
     <a href="https://t.me/lumosoffice"><img  className='icn r' src = {telegram}></img></a>
     <a href="https://www.facebook.com/profile.php?id=100076594770668"><img  className='icn'src = {fb}></img></a>
     <a href="https://m.me/Lumos.Slovakia"><img  className='icn' src = {fbm}></img></a>
-    <a href="https://msng.link/o?380666137040=vi"><img  className='icn' src = {viber}></img></a>
+    <a href="https://msng.link/o?380684816419=vi"><img  className='icn' src = {viber}></img></a>
     {/* <a href="viber://chat?number=+380684816419"><img  className='icn' src = {viber}></img></a> */}
   </div>
 </footer>

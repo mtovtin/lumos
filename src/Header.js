@@ -50,7 +50,7 @@ function Header(props) {
 
   return (
 
-    <Navbar className='nvbr' expand="lg">
+    <Navbar className='nvbr' style={{position:'fixed', width:'100%', zIndex:'100000'}} expand="lg">
     <Container>
       {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
