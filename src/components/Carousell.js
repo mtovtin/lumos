@@ -22,7 +22,7 @@ const carouselWidth = clamp(window.innerWidth, 0, 960);
 let strings = new LocalizedStrings({
   
   ua: {
-      title1: "Клара",
+      title1: 'Ірина, студентка курсу "Словацька з нуля"',
       text1: "Все гарно! Матеріал подається добре що не потрібно заучувати. Мені лише потрібно збільшувати словниковий запас. Все добре, мені подобається.",
       title2: "Катерина",
       text2: "Курсом дуже-дуже задоволена, бо є ж з чим порівнювати. Інформації багато, але заняття структуроване. Також є баланс граматики, розмовної практики і тд. Довго можно говорити але якщо коротко, то дуже крутий курс, дякую!",
@@ -142,7 +142,7 @@ class Carousell extends Component {
 
 
 <div style={{marginTop:'20px', marginBottom:'5px'}}  className=""><img style={{width: '80px'}} className='nst' src={kate}></img></div>
-          <div style={{marginBottom:'-10px'}} className="">{strings.title1}</div>
+          <div style={{marginBottom:'-10px', marginLeft:'10px'}} className="">{strings.title1}</div>
           <div style={{marginBottom:'20px !important', textAlign:'justify'}} className="carousel-text">{strings.text1}</div>
         </div>
 
