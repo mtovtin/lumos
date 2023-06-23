@@ -101,6 +101,7 @@ class Carousel extends Component {
     console.log(this.state)
     return (
       <>
+      <div style={{position:'fixed', zIndex:'20000000000'}}>twerk</div>
       <div style={{height: '300px' ,display:'flex', justifyContent:'space-between' }}
         key={index}
         className="carousel-card"
@@ -214,11 +215,13 @@ class Carousel extends Component {
           cardCount={data.length}
           cardPadCount={cardPadCount}
           loop={true}
+          autoplay={4000}
           renderCard={this.renderCard}
           onRest={(index) => console.log(`rest at index ${index}`)}
           onDragStart={() => console.log("dragStart")}
           onDragEnd={() => console.log("dragEnd")}
           onDragCancel={() => console.log("dragCancel")}
+          
         />
       </React.StrictMode>
     );

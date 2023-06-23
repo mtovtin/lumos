@@ -214,6 +214,7 @@ class Carousell extends Component {
           component={Container}
           cardSize={cardSize}
           cardCount={4}
+          autoplay={5000}
           cardPadCount={cardPadCount}
           loop={true}
           renderCard={this.renderCard}
