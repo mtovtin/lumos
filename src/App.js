@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import logo1 from './images/logo.png';
 import nastia from './images/fotor1.png';
-import bkg from './images/background.png'
+import bkg from './images/background.webp'
 import './App.css';
 import React, { useState } from 'react';
 import Header from "./Header";
