@@ -144,7 +144,7 @@ flex-direction: row;
   width: 36rem;
   height: 1000px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Inter';
   padding: 20px; 
   border-radius: 40px;
 
@@ -156,7 +156,7 @@ flex-direction: row;
   width: 36rem;
   height: 600px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Inter';
   padding: 20px; 
  
   border-radius: 40px;
@@ -338,7 +338,7 @@ height: 800px !important;
   font-size: 14px;
   white-space: pre-wrap;
   text-align: left;
-  font-family: 'Montserrat', sans-serif;
+  font-family: sans-serif;
 }
 
 .carousel-pagination-wrapper {
