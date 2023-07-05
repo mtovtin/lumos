@@ -39,7 +39,7 @@ let strings = new LocalizedStrings({
     text4: "Підходить для будь-якого рівня, від початківців до С1. Одне заняття триває 60 хвилин. Вартість 10€.",
     title5: "Парні заняття.",
     text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі. Заняття триває 60 хв. Вартість за двох студентів 15€ (один студент - 7.5€)",
-      appl:'ЗАПИСАТИСЬ'
+      appl:'ЗАПИС'
   },
   sk: {
     title1: "“Словацька з нуля”",
@@ -57,6 +57,7 @@ let strings = new LocalizedStrings({
 });
 
 function CarouselContainer(props) {
+  strings.setLanguage('ua')
   const {
     cursor,
     carouselState: { active, dragging },

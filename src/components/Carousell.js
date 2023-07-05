@@ -10,7 +10,8 @@ import klara from '../images/klara.png';
 import dima from '../images/dima.png';
 import xtina from '../images/xtina.png';
 import kate from '../images/kate.png';
-
+import sasha from '../images/sasha.png';
+import rina from '../images/rina.png';
 
 import "../App.css";
 
@@ -33,7 +34,13 @@ let strings = new LocalizedStrings({
       img1: klara,
       img2: kate,
       img3: xtina,
-      img4: dima
+      img4: dima,
+      text5: "Сподобалося все. Хороша група та гарна лекторка Ольга. Дуже добра, чуйна, весела, приємна людина. Розуміє кожного, не свариться за помилки. Мені було приємно бути в неї на курсі.",
+      text6:"Все було доволі цікаво, повчально. Цікаві матеріали уроків, сама подача інформації. З кожною темою починаєш більше і більше спілкуватися з носіями мови. Враження від навчання з Ольгою добрі та приємні.",
+      title5:"Ірина",
+      title6:"Олександра",
+      img5: rina,
+      img6: sasha
   },
   en: {
     title1: "Clara",
@@ -44,6 +51,16 @@ let strings = new LocalizedStrings({
     text3: "Even though the process of collecting documents for all the information, as soon as it was available, I bumped into the entrance to a foreign university, but after your help, it was easier.",
     title4: "Dmitra, STU student's father",
     text4: "The girls from Lumos organized our son's entry to the Technical University in Bratislava. They filled out the documents for the university in an hour, helped with everything. Accept that qualification of a faculty! Only the best recommendations!",
+    img1: klara,
+    img2: kate,
+    img3: xtina,
+    img4: dima,
+    text5: "I liked everything. A good group and a good lecturer, Olga. A very kind, sensitive, cheerful, pleasant person. She understands everyone, does not quarrel over mistakes. I was pleased to be on her course.",
+       text6:"Everything was quite interesting, instructive. Interesting lesson materials, the presentation of information itself. With each topic, you start to communicate more and more with native speakers. The impressions of studying with Olga are good and pleasant.",
+       title5:"Iryna",
+       title6:"Alexandra",
+       img5: rina,
+       img6: sasha
   },
   sk: {
     title1: "Clara",
@@ -54,6 +71,16 @@ let strings = new LocalizedStrings({
     text3: "Aj keď proces zbierania podkladov ku všetkým informáciám, hneď ako boli k dispozícii, narazil som na vchod na zahraničnú univerzitu, ale po vašej pomoci to bolo jednoduchšie.",
     title4: "Dmitra, otec študenta STU",
     text4: "Dievčatá z Lumosu zorganizovali nástup nášho syna na Technickú univerzitu v Bratislave. Za hodinu vyplnili dokumenty na univerzitu, so všetkým pomohli. Prijmite kvalifikáciu fakulty! Len tie najlepšie odporúčania!",
+    img1: klara,
+    img2: kate,
+    img3: xtina,
+    img4: dima,
+    text5: "Všetko sa mi páčilo. Dobrá partia a dobrá lektorka Oľga. Veľmi milý, citlivý, veselý, príjemný človek. S každým si rozumie, neháda sa pre chyby. Potešilo ma, že som bol na jej kurze.",
+       text6:"Všetko bolo celkom zaujímavé, poučné. Zaujímavé vyučovacie materiály, samotná prezentácia informácií. S každou témou začínate viac a viac komunikovať s rodenými hovorcami. Dojmy zo štúdia s Oľgou sú dobré a príjemné.",
+       title5:"Iryna",
+      title6:"Alexandra",
+      img5: rina,
+      img6: sasha
   }
 
 });
@@ -118,6 +145,18 @@ const data = [
     background: "#44c1c1",
     text: strings.text4,
     img: strings.img4
+  },
+  {
+    title: strings.title5,
+    background: "#0072bb",
+    text: strings.text5,
+    img: strings.img5
+  },
+  {
+    title: strings.title6,
+    background: "#ff4c3b",
+    text: strings.text6,
+    img: strings.img6
   }]
 
 
@@ -179,6 +218,43 @@ class Carousell extends Component {
 <div style={{marginTop:'20px', marginBottom:'5px'}}  className=""><img style={{width: '80px'}} className='nst' src={klara}></img></div>
           <div style={{marginBottom:'-10px'}} className="">{strings.title3}</div>
           <div style={{marginBottom:'20px !important', textAlign:'justify'}} className="carousel-text">{strings.text3}</div>
+        </div>
+
+        
+      </div>
+
+      <div
+        key={index}
+        className="carousel-card"
+        onClick={() => console.log(`clicked card ${1 + modIndex}`)}
+      >
+        <div
+          className="carousel-card-inner"
+          style={{ backgroundColor: "#0072bb" }}
+        >
+
+<div style={{marginTop:'20px', marginBottom:'5px'}}  className=""><img style={{width: '80px'}} className='nst' src={rina}></img></div>
+          <div style={{marginBottom:'-10px'}} className="">{strings.title5}</div>
+          <div style={{marginBottom:'20px !important', textAlign:'justify'}} className="carousel-text">{strings.text5}</div>
+        </div>
+
+        
+      </div>
+
+
+      <div
+        key={index}
+        className="carousel-card"
+        onClick={() => console.log(`clicked card ${1 + modIndex}`)}
+      >
+        <div
+          className="carousel-card-inner"
+          style={{ backgroundColor: "#ff4c3b" }}
+        >
+
+<div style={{marginTop:'20px', marginBottom:'5px'}}  className=""><img style={{width: '80px'}} className='nst' src={sasha}></img></div>
+          <div style={{marginBottom:'-10px'}} className="">{strings.title6}</div>
+          <div style={{marginBottom:'20px !important', textAlign:'justify'}} className="carousel-text">{strings.text6}</div>
         </div>
 
         
