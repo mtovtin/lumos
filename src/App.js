@@ -344,6 +344,11 @@ let kra;
 <div className='about e' style={{textAlign:'justify'}}>{strings.info}</div>
 <div className='about e' style={{fontWeight:'bold', textAlign:'justify'}}>{strings.info1}</div>
 <div className='about' style={{fontWeight:'bold'}}>{strings.spiv}</div>
+
+<div className='zaba'>
+
+
+<div>
 <div style={{textAlign: 'center' }}><img className='nst' src={nastia}></img></div>
 <div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
 <div className='desc'>
@@ -382,10 +387,62 @@ let kra;
 
 
 </div>
+</div>
 
-
+<div>
 
 <div style={{textAlign: 'center' }}><img className='ol' src={ol}></img></div>
+<div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
+<div className='desc'>
+<div>{strings.ol}</div>
+<div className='pos'>{strings.olpos}</div>
+</div>
+<div className='e' style={{marginBottom:'20px'}}>
+{strings.ola}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t21}
+</div>
+
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t22}
+</div>
+
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t23}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t24}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t25}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t26}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t27}
+</div>
+<div className='e'  style={{textAlign:'justify', marginTop:'6px', color:'#286988', visibility:'hidden', height:'10px'}}>
+{strings.t18}
+</div>
+
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t28}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t29}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', color:'#286988'}}>
+{strings.t291}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t292}
+</div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
+{strings.t293}
+</div>
+{/* <div style={{textAlign: 'center' }}><img className='ol' src={ol}></img></div>
 <div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
 <div className='desc'>
 <div>{strings.ol}</div>
@@ -431,9 +488,10 @@ let kra;
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t293}
+</div> */}
+
 </div>
-
-
+</div>
 </div>
    {/* <div style={{display: 'flex', flexDirection: 'row', justifyContent:'center'}}>
    <div><CourseCard /></div>
@@ -483,6 +541,14 @@ let kra;
  
 
  <div id='team' className='heading'>{strings.teachers}</div>
+
+
+
+
+ <div className='zaba'>
+
+
+<div>
  <div style={{textAlign: 'center' }}><img className='ol' src={chris}></img></div>
 <div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
 <div className='desc'>
@@ -510,7 +576,9 @@ let kra;
 {strings.t35}
 </div>
 </div>
+</div>
 
+<div>
 <div style={{textAlign: 'center' }}><img className='ol' src={adri}></img></div>
 <div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
 <div className='desc'>
@@ -531,6 +599,11 @@ let kra;
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t43}
 </div>
+<div className='e' style={{textAlign:'justify', marginTop:'6px', visibility:'hidden', height:'10px'}}>
+{strings.t34}
+</div>
+
+
 <div className='e' style={{textAlign:'justify', marginTop:'6px'}}>
 {strings.t44}
 </div>
@@ -553,6 +626,10 @@ let kra;
 {strings.t491}
 </div>
 </div>
+
+</div>
+</div>
+
  <div style={{textAlign: 'center' }}><img className='ol' src={domi}></img></div>
 <div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
 <div className='desc'>
@@ -584,8 +661,9 @@ let kra;
 </div>
 <div className='e' style={{textAlign:'justify', marginTop:'6px', marginBottom:'0px'}}>
 {strings.t57}
-</div>
 
+
+</div>
 </div>
 
 

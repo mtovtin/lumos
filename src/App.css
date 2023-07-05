@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 .App {
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   color: white;
 }
 
@@ -21,7 +24,7 @@
 
 .ol{
 
-  width: 300px;
+  width: 315px;
 
 }
 .App-header {
@@ -82,7 +85,7 @@
 .about {
 
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   margin: 30px;
 }
@@ -91,7 +94,7 @@
 label {
 
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   margin: 15px;
 color: white;
@@ -116,7 +119,7 @@ color: #FE931E;
 .about1 {
 
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 22px;
   margin: 30px;
 }
@@ -141,7 +144,7 @@ flex-direction: row;
   width: 36rem;
   height: 1000px;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 20px; 
   border-radius: 40px;
 
@@ -153,7 +156,7 @@ flex-direction: row;
   width: 36rem;
   height: 600px;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 20px; 
  
   border-radius: 40px;
@@ -335,7 +338,7 @@ height: 800px !important;
   font-size: 14px;
   white-space: pre-wrap;
   text-align: left;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .carousel-pagination-wrapper {
@@ -411,7 +414,7 @@ small {
   font-size: 28px;
     background-color: #FE931E;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     color: white !important;
 }
 
@@ -425,7 +428,7 @@ small {
 label {
 
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   margin: 10px;
 color: white;
@@ -486,7 +489,7 @@ margin-left: 120px;
       font-size: 20px;
       white-space: pre-wrap;
       text-align: center;
-      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-family: 'Montserrat', sans-serif;
       font-size: 20px !important;
       margin-bottom: 10px;
 color: #286988;
@@ -640,7 +643,7 @@ left: -90px;
   font-size: 20px;
     background-color: #FE931E;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Montserrat', sans-serif;
     color: white !important;
 
 
@@ -680,3 +683,13 @@ width: 180px;
     height: 20px;
     width: 36px;
   }
+
+
+
+  @media screen and (min-width: 900px) {
+  .zaba {
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  }
+}
