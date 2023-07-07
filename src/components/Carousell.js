@@ -6,12 +6,12 @@ import NonPassiveTouchTarget from "./NonPassiveTouchTarget";
 import TouchCarousel, { clamp } from "react-touch-carousel";
 import touchWithMouseHOC from "react-touch-carousel/lib/touchWithMouseHOC";
 import LocalizedStrings from 'react-localization';
-import klara from '../images/klara.png';
+import klara from '../images/klara.JPG';
 import dima from '../images/dima.png';
-import xtina from '../images/xtina.png';
-import kate from '../images/kate.png';
-import sasha from '../images/sasha.png';
-import rina from '../images/rina.png';
+import xtina from '../images/xtina.JPG';
+import kate from '../images/kate.JPG';
+import sasha from '../images/sasha.JPG';
+import rina from '../images/rina.JPG';
 
 import "../App.css";
 
