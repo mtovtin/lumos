@@ -105,7 +105,9 @@ let strings = new LocalizedStrings({
       em: 'Email address',
       emm: "We'll never share your email with anyone else.",
       pn: "Phone",
-      cs: 'Course'
+      cs: 'Course',
+      prim: 'Notes',
+      prim1:'Questions, wishes'
 
   },
   ua: {
@@ -180,7 +182,9 @@ let strings = new LocalizedStrings({
       em: 'Емейл',
       emm: "Ми ніколи не поширимо Ваш емейл",
       pn: "Номер телефону",
-      cs: 'Курс'
+      cs: 'Курс',
+      prim: 'Примітки',
+      prim1:'Питання, побажання'
   },
   sk: {
     spiv:'Співзасновниці',
@@ -253,7 +257,9 @@ let strings = new LocalizedStrings({
     em: 'E-mailová adresa',
     emm: "Váš e-mail nikdy nezdieľame s nikým iným.",
     pn: "Telefón",
-    cs: 'Kurz'
+    cs: 'Kurz',
+    prim: 'Примітки',
+    prim1:'Питання, побажання'
   }
 });
 
@@ -268,7 +274,8 @@ let kra;
         name: document.getElementById('formGroupExampleInput2').value,
         phone: document.getElementById('phone').value,
         course: document.getElementById('inlineFormCustomSelectPref').value,
-        email: document.getElementById('exampleInputEmail1').value
+        email: document.getElementById('exampleInputEmail1').value,
+        prim:  document.getElementById('prim').value
     };
 
       e.preventDefault(); // prevents the page from reloading when you hit “Send”
@@ -525,7 +532,7 @@ let kra;
 
 
   <label class="my-1 mr-2" for="inlineFormCustomSelectPref">{strings.cs}</label>
-  <select style={{marginTop: '40px', width: '290px'}} class="form-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+  <select style={{marginTop: '30px', width: '290px'}} class="form-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
     <option selected value="B1">B1</option>
     <option value="Курс - “Словацька з нуля”">Курс - “Словацька з нуля”</option>
     <option value="A2">A2</option>
@@ -533,6 +540,14 @@ let kra;
     <option value="Парні заняття">Парні заняття</option>
     <option value="Індивідуальні заняття">Індивідуальні заняття</option>
   </select>
+
+  <div class="form-group">
+    <label for="exampleInputEmail1">{strings.prim}</label>
+    <input style={{marginBottom:'20px'}} type="text" name="phone" class="form-control" id="prim" placeholder={strings.prim1}
+     
+       required></input>
+
+  </div>
 
   <input class="btn-primary" style={{width: '100px', borderRadius: '5px', marginTop:'20px',backgroundColor:'#FE931E',border: '0px', height:'40px', color:'white', marginBottom:'20px'}}  type="submit" value="OK" />
 </form>

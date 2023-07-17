@@ -7,7 +7,7 @@ import TouchCarousel, { clamp } from "react-touch-carousel";
 import touchWithMouseHOC from "react-touch-carousel/lib/touchWithMouseHOC";
 import LocalizedStrings from 'react-localization';
 import klara from '../images/klara.JPG';
-import dima from '../images/dima.png';
+import dima from '../images/dima.JPG';
 import xtina from '../images/xtina.JPG';
 import kate from '../images/kate.JPG';
 import sasha from '../images/sasha.JPG';
