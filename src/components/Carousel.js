@@ -17,42 +17,76 @@ const carouselWidth = clamp(window.innerWidth, 0, 960);
 let strings = new LocalizedStrings({
   en: {
       title1: "“Словацька з нуля”",
-      text1: "Підійде для початківців, студентів, які ще не вивчали словацьку. В групі 5-6 учасників. Курс триває 3 місяці, 25 занять по 1,5 год. Вартість 198€.",
+      text1: "Підійде для початківців, які ще не вивчали словацьку. ",
+      text11:"В групі 5-6 учасників.",
+      text111:"Курс триває 3 місяці, 25 занять по 1,5 год.",
+      text1111:"Вартість 170€",
       title2: "Курс - А2",
-      text2: "Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”, але ще має теми, які потрібно пройти та невпевнено розмовляє словацькою. В групі 5-6 учасників. Курс триває …… (допишемо)",
+     text2:"Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”)",
+     text22:"В групі 5-6 учасників",
+     text222:"Курс триває",
+     text2222:"Вартість",
       title3: "Розмовний клуб для рівнів В1+",
-      text3: "Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. Вартість одного заняття - 1,5 год - 7€.",
+      text3: "Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. ",
+      text33:"Вартість 1 заняття (1,5 год) - 7€/студент",
       title4: "Індивідуальні заняття",
-      text4: "Підходить для будь-якого рівня, від початківців до С1. Одне заняття триває 60 хвилин. Вартість 10€.",
+      text4: "Підходить для будь-якого рівня, від початківців до С1",
+      text44:"Одне заняття триває 60 хвилин - з україномовною лекторкою або носійкою мови.",
+      text444:"Вартість 10€",
       title5: "Парні заняття.",
-      text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі. Заняття триває 60 хв. Вартість за двох студентів 15€ (один студент - 7.5€)",
+      text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі",
+      text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
+      text555:"Вартість за двох студентів 15€ (один студент - 7.5€)",
       appl:'APPLY'
   },
   ua: {
     title1: "“Словацька з нуля”",
-    text1: "Підійде для початківців, студентів, які ще не вивчали словацьку. В групі 5-6 учасників. Курс триває 3 місяці, 25 занять по 1,5 год. Вартість 198€.",
+    text1: "Підійде для початківців, які ще не вивчали словацьку. ",
+    text11:"В групі 5-6 учасників.",
+    text111:"Курс триває 3 місяці, 25 занять по 1,5 год.",
+    text1111:"Вартість 170€",
     title2: "Курс - А2",
-    text2: "Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”, але ще має теми, які потрібно пройти та невпевнено розмовляє словацькою. В групі 5-6 учасників. Курс триває …… (допишемо)",
+   text2:"Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”)",
+   text22:"В групі 5-6 учасників",
+   text222:"Курс триває",
+   text2222:"Вартість",
     title3: "Розмовний клуб для рівнів В1+",
-    text3: "Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. Вартість одного заняття - 1,5 год - 7€.",
+    text3: "Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. ",
+    text33:"Вартість 1 заняття (1,5 год) - 7€/студент",
     title4: "Індивідуальні заняття",
-    text4: "Підходить для будь-якого рівня, від початківців до С1. Одне заняття триває 60 хвилин. Вартість 10€.",
+    text4: "Підходить для будь-якого рівня, від початківців до С1",
+    text44:"Одне заняття триває 60 хвилин - з україномовною лекторкою або носійкою мови.",
+    text444:"Вартість 10€",
     title5: "Парні заняття.",
-    text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі. Заняття триває 60 хв. Вартість за двох студентів 15€ (один студент - 7.5€)",
+    text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі",
+    text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
+    text555:"Вартість за двох студентів 15€ (один студент - 7.5€)",
+
       appl:'ЗАПИС'
   },
   sk: {
     title1: "“Словацька з нуля”",
-    text1: "Підійде для початківців, студентів, які ще не вивчали словацьку. В групі 5-6 учасників. Курс триває 3 місяці, 25 занять по 1,5 год. Вартість 198€.",
+    text1: "Підійде для початківців, які ще не вивчали словацьку.",
+    text11:"В групі 5-6 учасників.",
+    text111:"Курс триває 3 місяці, 25 занять по 1,5 год.",
+    text1111:"Вартість 170€",
     title2: "Курс - А2",
-    text2: "Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”, але ще має теми, які потрібно пройти та невпевнено розмовляє словацькою. В групі 5-6 учасників. Курс триває …… (допишемо)",
+   text2:"Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”)",
+   text22:"В групі 5-6 учасників",
+   text222:"Курс триває",
+   text2222:"Вартість",
     title3: "Розмовний клуб для рівнів В1+",
-    text3: "Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. Вартість одного заняття - 1,5 год - 7€.",
+    text3: " Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. ",
+    text33:"Вартість 1 заняття (1,5 год) - 7€/студент",
     title4: "Індивідуальні заняття",
-    text4: "Підходить для будь-якого рівня, від початківців до С1. Одне заняття триває 60 хвилин. Вартість 10€.",
+    text4: "Підходить для будь-якого рівня, від початківців до С1",
+    text44:"Одне заняття триває 60 хвилин - з україномовною лекторкою або носійкою мови.",
+    text444:"Вартість 10€",
     title5: "Парні заняття.",
-    text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі. Заняття триває 60 хв. Вартість за двох студентів 15€ (один студент - 7.5€)",
-    appl:'podať si prihlášku'
+    text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі",
+    text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
+    text555:"Вартість за двох студентів 15€ (один студент - 7.5€)",
+    appl:'APPLY'
   }
 });
 
@@ -115,9 +149,15 @@ class Carousel extends Component {
 
 
 
-          <div style={{height:'30px', marginBottom:'20px'}} className="carousel-title">{strings.title1}</div>
-          <div style={{marginBottom:'0px !important', textAlign:'justify', position:'static', height:'146px'}} className="carousel-text">{strings.text1}</div>
-        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'20px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
+          <div style={{height:'30px', marginBottom:'10px',marginTop:'12px'}} className="carousel-title">{strings.title1}</div>
+          <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
+          <div style={{marginBottom:'6px'}}>{strings.text1}</div>
+          <div style={{marginBottom:'6px'}}>{strings.text11}</div>
+          <div style={{marginBottom:'6px'}}>{strings.text111}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text1111}</div>
+          </div>
+
+        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
 
         
@@ -135,9 +175,14 @@ class Carousel extends Component {
 
 
 
-          <div style={{height:'30px', marginBottom:'20px'}} className="carousel-title">{strings.title2}</div>
-          <div style={{marginBottom:'0px !important', textAlign:'justify', position:'static', height:'146px'}} className="carousel-text">{strings.text2}</div>
-        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'20px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
+          <div style={{height:'30px', marginBottom:'10px',marginTop:'12px'}} className="carousel-title">{strings.title2}</div>
+          <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
+          <div style={{marginBottom:'6px'}}>{strings.text2}</div>
+          <div style={{marginBottom:'6px'}}>{strings.text22}</div>
+          <div style={{marginBottom:'6px'}}>{strings.text222}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text2222}</div>
+          </div>
+        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
 
         
@@ -156,8 +201,11 @@ class Carousel extends Component {
 
 
 
-          <div style={{height:'30px', marginBottom:'30px'}} className="carousel-title">{strings.title3}</div>
-          <div style={{marginBottom:'0px !important', textAlign:'justify', position:'static', height:'146px'}} className="carousel-text">{strings.text3}</div>
+          <div style={{height:'30px', marginBottom:'30px',marginTop:'12px'}} className="carousel-title">{strings.title3}</div>
+          <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
+          <div style={{marginBottom:'6px'}}>{strings.text3}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text33}</div>
+          </div>
         <div style={{}}> <button style={{borderRadius: '5px', marginTop:'10px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
 
@@ -176,9 +224,13 @@ class Carousel extends Component {
 
 
 
-          <div style={{height:'30px', marginBottom:'20px'}} className="carousel-title">{strings.title4}</div>
-          <div style={{marginBottom:'0px !important', textAlign:'justify', position:'static', height:'146px'}} className="carousel-text">{strings.text4}</div>
-        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'20px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
+          <div style={{height:'30px', marginBottom:'10px', marginTop:'12px'}} className="carousel-title">{strings.title4}</div>
+          <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
+          <div style={{marginBottom:'6px'}}>{strings.text4}</div>
+          <div style={{marginBottom:'6px'}}>{strings.text44}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text444}</div>
+          </div>
+        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
 
         
@@ -196,11 +248,15 @@ class Carousel extends Component {
 
 
 
-          <div style={{height:'30px', marginBottom:'20px'}} className="carousel-title">{strings.title5}</div>
-          <div style={{marginBottom:'0px !important', textAlign:'justify', position:'static', height:'146px'}} className="carousel-text">{strings.text5}</div>
-        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'20px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
-        </div>
 
+<div style={{height:'30px', marginBottom:'10px', marginTop:'12px'}} className="carousel-title">{strings.title5}</div>
+          <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
+          <div style={{marginBottom:'6px'}}>{strings.text5}</div>
+          <div style={{marginBottom:'6px', fontSize:'10px',color:'#ffca18'}}>{strings.text55}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text555}</div>
+          </div>
+        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
+        </div>
         
       </div>
 </>
