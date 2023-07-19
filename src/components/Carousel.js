@@ -154,7 +154,7 @@ class Carousel extends Component {
           <div style={{marginBottom:'6px'}}>{strings.text1}</div>
           <div style={{marginBottom:'6px'}}>{strings.text11}</div>
           <div style={{marginBottom:'6px'}}>{strings.text111}</div>
-          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text1111}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold', color:"#020B4A"}}>{strings.text1111}</div>
           </div>
 
         <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
@@ -180,7 +180,7 @@ class Carousel extends Component {
           <div style={{marginBottom:'6px'}}>{strings.text2}</div>
           <div style={{marginBottom:'6px'}}>{strings.text22}</div>
           <div style={{marginBottom:'6px'}}>{strings.text222}</div>
-          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text2222}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold', color:"#020B4A"}}>{strings.text2222}</div>
           </div>
         <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
@@ -204,7 +204,7 @@ class Carousel extends Component {
           <div style={{height:'30px', marginBottom:'30px',marginTop:'12px'}} className="carousel-title">{strings.title3}</div>
           <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
           <div style={{marginBottom:'6px'}}>{strings.text3}</div>
-          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text33}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold', color:"#020B4A"}}>{strings.text33}</div>
           </div>
         <div style={{}}> <button style={{borderRadius: '5px', marginTop:'10px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
@@ -228,7 +228,7 @@ class Carousel extends Component {
           <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
           <div style={{marginBottom:'6px'}}>{strings.text4}</div>
           <div style={{marginBottom:'6px'}}>{strings.text44}</div>
-          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text444}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold', color:"#020B4A"}}>{strings.text444}</div>
           </div>
         <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
@@ -253,7 +253,7 @@ class Carousel extends Component {
           <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
           <div style={{marginBottom:'6px'}}>{strings.text5}</div>
           <div style={{marginBottom:'6px', fontSize:'10px',color:'#ffca18'}}>{strings.text55}</div>
-          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold'}}>{strings.text555}</div>
+          <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold', color:"#020B4A"}}>{strings.text555}</div>
           </div>
         <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
