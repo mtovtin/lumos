@@ -87,6 +87,8 @@ let strings = new LocalizedStrings({
 
 
 function CarouselContainer(props) {
+
+  
 strings.setLanguage('ua')
 
   const {
@@ -162,13 +164,16 @@ const data = [
 
 class Carousell extends Component {
 
- 
+
   
   renderCard(index, modIndex) {
-
+    // const { twerk } = this.props;
+    // console.log(twerk)
     const item = data[modIndex];
     return (
+
       <>
+      
       <div
         key={index}
         className="carousel-card"

@@ -91,7 +91,7 @@ let strings = new LocalizedStrings({
 });
 
 function CarouselContainer(props) {
-  strings.setLanguage('ua')
+
   const {
     cursor,
     carouselState: { active, dragging },

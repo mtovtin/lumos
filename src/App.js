@@ -691,7 +691,7 @@ let kra;
 
 <div id='reviews' className='heading'>{strings.feedback}</div>
  <div>
- <Carousell language={language}/>
+ <Carousell language={language} />
  </div>
 
  <footer style={{marginTop:'80px'}}>
