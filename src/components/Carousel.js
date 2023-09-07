@@ -24,8 +24,8 @@ let strings = new LocalizedStrings({
       title2: "Курс - А2",
      text2:"Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”)",
      text22:"В групі 5-6 учасників",
-     text222:"Курс триває",
-     text2222:"Вартість",
+     text222:"Курс триває 3 місяці, 22 заняття, щотижня два заняття по 1,5 год",
+     text2222:"Вартість 150€",
       title3: "Розмовний клуб для рівнів В1+",
       text3: "Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. ",
       text33:"Вартість 1 заняття (1,5 год) - 7€/студент",
@@ -48,8 +48,8 @@ let strings = new LocalizedStrings({
     title2: "Курс - А2",
    text2:"Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”)",
    text22:"В групі 5-6 учасників",
-   text222:"Курс триває",
-   text2222:"Вартість",
+   text222:"Курс триває 3 місяці, 22 заняття, щотижня два заняття по 1,5 год",
+   text2222:"Вартість 150€",
     title3: "Розмовний клуб для рівнів В1+",
     text3: "Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. ",
     text33:"Вартість 1 заняття (1,5 год) - 7€/студент",
@@ -73,8 +73,8 @@ let strings = new LocalizedStrings({
     title2: "Курс - А2",
    text2:"Підійде для тих, хто вже має базу зі словацької (пройшов рівень А1 або наш курс “Словацька з нуля”)",
    text22:"В групі 5-6 учасників",
-   text222:"Курс триває",
-   text2222:"Вартість",
+   text222:"Курс триває 3 місяці, 22 заняття, щотижня два заняття по 1,5 год",
+   text2222:"Вартість 150€",
     title3: "Розмовний клуб для рівнів В1+",
     text3: " Клуб підходить для тих, хто вже говорить словацькою та знає її на хорошому рівні. Зосереджується на розмовній практиці та поповненні словникового запасу. ",
     text33:"Вартість 1 заняття (1,5 год) - 7€/студент",
@@ -175,14 +175,14 @@ class Carousel extends Component {
 
 
 
-          <div style={{height:'30px', marginBottom:'10px',marginTop:'12px'}} className="carousel-title">{strings.title2}</div>
+          <div style={{height:'30px', marginBottom:'0px',marginTop:'12px'}} className="carousel-title">{strings.title2}</div>
           <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
           <div style={{marginBottom:'6px'}}>{strings.text2}</div>
           <div style={{marginBottom:'6px'}}>{strings.text22}</div>
           <div style={{marginBottom:'6px'}}>{strings.text222}</div>
           <div style={{fontSize:'16px',marginBottom:'14px', fontWeight:'bold', color:"#020B4A"}}>{strings.text2222}</div>
           </div>
-        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'30px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
+        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'40px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
 
         
