@@ -210,7 +210,7 @@ class Carousell extends Component {
         
       </div>
 
-      <div
+      {/* <div
         key={index}
         className="carousel-card"
         onClick={() => console.log(`clicked card ${1 + modIndex}`)}
@@ -226,7 +226,7 @@ class Carousell extends Component {
         </div>
 
         
-      </div>
+      </div> */}
 
       <div
         key={index}
@@ -265,7 +265,7 @@ class Carousell extends Component {
         
       </div>
 
-      <div
+      {/* <div
         key={index}
         className="carousel-card"
         onClick={() => console.log(`clicked card ${1 + modIndex}`)}
@@ -281,7 +281,7 @@ class Carousell extends Component {
         </div>
 
         
-      </div>
+      </div> */}
       
 </>
       

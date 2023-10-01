@@ -570,7 +570,7 @@ let kra;
  <div className='zaba'>
 
 
-<div>
+{/* <div>
  <div style={{textAlign: 'center' }}><img className='ol' src={chris}></img></div>
 <div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
 <div className='desc'>
@@ -598,7 +598,7 @@ let kra;
 {strings.t35}
 </div>
 </div>
-</div>
+</div> */}
 
 <div>
 <div style={{textAlign: 'center' }}><img className='ol' src={adri}></img></div>
@@ -652,7 +652,7 @@ let kra;
 </div>
 </div>
 
- <div style={{textAlign: 'center' }}><img className='ol' src={domi}></img></div>
+ {/* <div style={{textAlign: 'center' }}><img className='ol' src={domi}></img></div>
 <div className='about' style={{marginLeft:'50px', marginRight:'50px'}}>
 <div className='desc'>
 <div>{strings.name4}</div>
@@ -685,8 +685,8 @@ let kra;
 {strings.t57}
 
 
-</div>
-</div>
+</div> 
+</div>*/}
 
 
 <div id='reviews' className='heading'>{strings.feedback}</div>

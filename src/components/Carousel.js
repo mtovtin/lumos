@@ -233,7 +233,7 @@ class Carousel extends Component {
         
       </div>
 
-      <div style={{height: '300px' ,display:'flex', justifyContent:'space-between' }}
+      {/* <div style={{height: '300px' ,display:'flex', justifyContent:'space-between' }}
         key={index}
         className="carousel-card"
         onClick={() => console.log(`clicked card ${1 + modIndex}`)}
@@ -255,7 +255,7 @@ class Carousel extends Component {
         </div>
 
         
-      </div>
+      </div> */}
 
 
 
