@@ -32,14 +32,18 @@ let strings = new LocalizedStrings({
       title4: "Індивідуальні заняття",
       text4: "Підходить для будь-якого рівня, від початківців до С1",
       text44:"Одне заняття триває 60 хвилин - з україномовною лекторкою або носійкою мови.",
-      text444:"Вартість 10€",
-      title5: "Парні заняття.",
+      text444:"Вартість 12€",
+      title5: "Парні заняття",
       text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі",
       text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
-      text555:"Вартість за двох студентів 15€ (один студент - 7.5€)",
+      text555:"Вартість за двох студентів 16€ (один студент - 8€)",
       title6: "Словацька з нуля - дитячий",
       text6:"Вік 8-11 років. 3 місяці навчання, щотижня 2 заняття по годині",
       text66:"Вартість 160€",
+      title7: "Словацька для абітурієнтів",
+      text7:"Проходження А1 та А2 рівнів. 6 місяців навчання, 48 занять",
+      text77: "2 заняття щотижня по 1.5 години",
+      text777:"Вартість 330€",
       appl:'APPLY'
   },
   ua: {
@@ -59,14 +63,18 @@ let strings = new LocalizedStrings({
     title4: "Індивідуальні заняття",
     text4: "Підходить для будь-якого рівня, від початківців до С1",
     text44:"Одне заняття триває 60 хвилин - з україномовною лекторкою або носійкою мови.",
-    text444:"Вартість 10€",
-    title5: "Парні заняття.",
+    text444:"Вартість 12€",
+    title5: "Парні заняття",
     text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі",
     text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
-    text555:"Вартість за двох студентів 15€ (один студент - 7.5€)",
+    text555:"Вартість за двох студентів 16€ (один студент - 8€)",
     title6: "Словацька з нуля - дитячий",
     text6:"Вік 8-11 років. 3 місяці навчання, щотижня 2 заняття по годині",
     text66:"Вартість 160€",
+    title7: "Словацька для абітурієнтів",
+    text7:"Проходження А1 та А2 рівнів. 6 місяців навчання, 48 занять",
+    text77: "2 заняття щотижня по 1.5 години",
+    text777:"Вартість 330€",
 
       appl:'ЗАПИС'
   },
@@ -87,14 +95,18 @@ let strings = new LocalizedStrings({
     title4: "Індивідуальні заняття",
     text4: "Підходить для будь-якого рівня, від початківців до С1",
     text44:"Одне заняття триває 60 хвилин - з україномовною лекторкою або носійкою мови.",
-    text444:"Вартість 10€",
-    title5: "Парні заняття.",
+    text444:"Вартість 12€",
+    title5: "Парні заняття",
     text5: "Підходить для друзів, партнерів або незнайомих студентів, які хочуть покращити свою словацьку в парі",
     text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
-    text555:"Вартість за двох студентів 15€ (один студент - 7.5€)",
+    text555:"Вартість за двох студентів 16€ (один студент - 8€)",
     title6: "Словацька з нуля - дитячий",
     text6:"Вік 8-11 років. 3 місяці навчання, щотижня 2 заняття по годині",
     text66:"Вартість 160€",
+    title7: "Словацька для абітурієнтів",
+    text7:"Проходження А1 та А2 рівнів. 6 місяців навчання, 48 занять",
+    text77: "2 заняття щотижня по 1.5 години",
+    text777:"Вартість 330€",
     appl:'APPLY'
   }
 });
@@ -145,7 +157,7 @@ class Carousel extends Component {
     console.log(this.state)
     return (
       <>
-      <div style={{position:'fixed', zIndex:'20000000000'}}>twerk</div>
+
       <div style={{height: '300px' ,display:'flex', justifyContent:'space-between' }}
         key={index}
         className="carousel-card"
@@ -238,6 +250,35 @@ class Carousel extends Component {
           <div style={{marginBottom:'6px'}}>{strings.text6}</div>
           <div style={{marginBottom:'20px'}}>{strings.text66}</div>
           <div style={{fontSize:'16px',marginBottom:'0px', fontWeight:'bold', color:"#020B4A"}}>{strings.text66}</div>
+          </div>
+        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'0px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
+        </div>
+
+        
+      </div>
+
+
+
+      <div style={{height: '300px' ,display:'flex', justifyContent:'space-between' }}
+        key={index}
+        className="carousel-card"
+        onClick={() => console.log(`clicked card ${1 + modIndex}`)}
+      >
+        <div
+          className="carousel-card-inner"
+          style={{ backgroundColor: "#FF6347" }}
+        >
+
+
+
+
+
+
+          <div style={{height:'30px', marginBottom:'40px', marginTop:'12px'}} className="carousel-title">{strings.title7}</div>
+          <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
+          <div style={{marginBottom:'6px'}}>{strings.text7}</div>
+          <div style={{marginBottom:'20px'}}>{strings.text77}</div>
+          <div style={{fontSize:'16px',marginBottom:'0px', fontWeight:'bold', color:"#020B4A"}}>{strings.text777}</div>
           </div>
         <div style={{}}> <button style={{borderRadius: '5px', marginTop:'0px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
