@@ -43,13 +43,17 @@ let strings = new LocalizedStrings({
       text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
       text555:"Вартість за двох студентів 16€ (один студент - 8€)",
       title6: "Словацька з нуля - дитячий",
-      text6:"Вік 8-11 років.",
-    text666:"Курс триває 3 місяці, 24 занять по 1 год. щотижня",
+      text6:"Вік 8-11 років",
       text66:"Вартість 160€",
+      text666:"Курс триває 3 місяці, 24 заняття. Щотижня 2 заняття по годині",
       title7: "Словацька для абітурієнтів",
       text7:"Проходження А1 та А2 рівнів. 6 місяців навчання, 48 занять",
       text77: "2 заняття щотижня по 1.5 години",
       text777:"Вартість 330€",
+    title8: "Індивідуальні заняття - для дітей",
+    text8:"Одне заняття триває 45 хвилин - з україномовною лекторкою або носійкою мовою",
+    text88: "",
+    text888:"Вартість 10€",
       appl:'APPLY'
   },
   ua: {
@@ -76,14 +80,17 @@ let strings = new LocalizedStrings({
     text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
     text555:"Вартість за двох студентів 16€ (один студент - 8€)",
     title6: "Словацька з нуля - дитячий",
-    text6:"Вік 8-11 років. 3 місяці навчання, щотижня 2 заняття по годині",
+    text6:"Вік 8-11 років",
     text66:"Вартість 160€",
-    text666:"Курс триває 3 місяці, 24 занять по 1 год. щотижня",
+    text666:"Курс триває 3 місяці, 24 заняття. Щотижня 2 заняття по годині",
     title7: "Словацька для абітурієнтів",
     text7:"Проходження А1 та А2 рівнів. 6 місяців навчання, 48 занять",
     text77: "2 заняття щотижня по 1.5 години",
     text777:"Вартість 330€",
-
+    title8: "Індивідуальні заняття - для дітей",
+    text8:"Одне заняття триває 45 хвилин - з україномовною лекторкою або носійкою мовою",
+    text88: "",
+    text888:"Вартість 10€",
       appl:'ЗАПИС'
   },
   sk: {
@@ -110,13 +117,17 @@ let strings = new LocalizedStrings({
     text55:"якщо ви хочете бути з конкретною людиною в парі, напишіть її/його ім‘я до «Примітки» при записі",
     text555:"Вартість за двох студентів 16€ (один студент - 8€)",
     title6: "Словацька з нуля - дитячий",
-    text6:"Вік 8-11 років. 3 місяці навчання, щотижня 2 заняття по годині",
+    text6:"Вік 8-11 років",
     text66:"Вартість 160€",
-    text666:"Курс триває 3 місяці, 24 занять по 1 год. щотижня",
+    text666:"Курс триває 3 місяці, 24 заняття. Щотижня 2 заняття по годині",
     title7: "Словацька для абітурієнтів",
     text7:"Проходження А1 та А2 рівнів. 6 місяців навчання, 48 занять",
     text77: "2 заняття щотижня по 1.5 години",
     text777:"Вартість 330€",
+    title8: "Індивідуальні заняття - для дітей",
+    text8:"Одне заняття триває 45 хвилин - з україномовною лекторкою або носійкою мовою",
+    text88: "",
+    text888:"Вартість 10€",
     appl:'APPLY'
   }
 });
@@ -290,6 +301,36 @@ class Carousel extends Component {
           <div style={{marginBottom:'6px'}}>{strings.text7}</div>
           <div style={{marginBottom:'20px'}}>{strings.text77}</div>
           <div style={{fontSize:'16px',marginBottom:'0px', fontWeight:'bold', color:"#020B4A"}}>{strings.text777}</div>
+          </div>
+        <div style={{}}> <button style={{borderRadius: '5px', marginTop:'0px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
+        </div>
+
+        
+      </div>
+
+
+
+
+      <div style={{height: '300px' ,display:'flex', justifyContent:'space-between' }}
+        key={index}
+        className="carousel-card"
+        onClick={() => console.log(`clicked card ${1 + modIndex}`)}
+      >
+        <div
+          className="carousel-card-inner"
+          style={{ backgroundColor: "#7FFF00" }}
+        >
+
+
+
+
+
+
+          <div style={{height:'30px', marginBottom:'40px', marginTop:'12px'}} className="carousel-title">{strings.title8}</div>
+          <div style={{marginBottom:'0px !important', textAlign:'center', position:'static', height:'146px'}} className="carousel-text">
+          <div style={{marginBottom:'6px'}}>{strings.text8}</div>
+          <div style={{marginBottom:'20px'}}>{strings.text88}</div>
+          <div style={{fontSize:'16px',marginBottom:'0px', fontWeight:'bold', color:"#020B4A"}}>{strings.text888}</div>
           </div>
         <div style={{}}> <button style={{borderRadius: '5px', marginTop:'0px',backgroundColor:'#286988',border: '0px', height:'40px', width:'80px', color:'white'}}  onClick = {this.props.change}>{strings.appl}</button></div> 
         </div>
